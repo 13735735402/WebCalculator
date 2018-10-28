@@ -306,4 +306,33 @@ window.onload = function (){
 	        break;
 	    }
 	}
+	
+	/* 换肤 */
+	document.getElementById("skin-black").onclick = function(){
+		document.getElementById("skin").href = "";
+	}
+	document.getElementById("skin-white").onclick = function(){
+		document.getElementById("skin").href = "css/white.css";
+	}
+	document.getElementById("skin-grey").onclick = function(){
+		document.getElementById("skin").href = "css/grey.css";
+	}
+	document.getElementById("skin-pink").onclick = function(){
+		document.getElementById("skin").href = "css/pink.css";
+	}
+	document.getElementById("skin-green").onclick = function(){
+		document.getElementById("skin").href = "css/green.css";
+	}
+	document.getElementById("skin-purple").onclick = function(){
+		document.getElementById("skin").href = "css/purple.css";
+	}
+	document.getElementById("skin-skyblue").onclick = function(){
+		document.getElementById("skin").href = "css/skyblue.css";
+	}
+	document.getElementById("skin-red").onclick = function(){
+		document.getElementById("skin").href = "css/red.css";
+	}
+	document.getElementById("skin-orange").onclick = function(){
+		document.getElementById("skin").href = "css/orange.css";
+	}
 }
