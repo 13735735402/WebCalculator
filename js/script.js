@@ -128,7 +128,10 @@ window.onload = function (){
 		 如果为空，则不执行，如果不为空，获取内容*/
 		var str = screen1.innerHTML;
 		if(str){
-			anwser = eval(str);
+			math.config({
+		            number: 'BigNumber'
+		        });
+		        anwser = math.parser().eval(str);
 		}
 		screen2.innerHTML = anwser;
 	}
@@ -227,7 +230,10 @@ window.onload = function (){
 	   		var anwser = 0;
 			var str = screen1.innerHTML;
 			if(str){
-				anwser = eval(str);
+				math.config({
+				    number: 'BigNumber'
+				});
+				anwser = math.parser().eval(str);
 			}
 			screen2.innerHTML = anwser;
 			/* 撤销 */
