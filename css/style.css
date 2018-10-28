@@ -4,8 +4,55 @@
 }
 
 body {
-  font-size: 13px;
+	font-size: 13px;
+	background: whitesmoke;
 }
+#skin-box {
+	position: relative;
+	width: 350px;
+	height: 30px;
+	margin: 5px auto;
+}
+#skin-box button {
+	width: 15px;
+	height: 15px;
+	outline: 0;
+	cursor: pointer;
+	border:0;
+}
+#skin-black {
+	background-color: #333;
+}
+#skin-white {
+	background-color: white;
+}
+#skin-grey {
+	background-color: grey;
+}
+#skin-pink {
+	background-color: pink;
+}
+#skin-green {
+	background-color: green;
+}
+#skin-skyblue {
+	background-color: skyblue;
+}
+#skin-purple {
+	background-color: purple;
+}
+#skin-red {
+	background-color: Crimson;
+}
+#skin-orange {
+	background-color: orange;
+}
+
+#skin-box button:focus {
+	width: 20px;
+	height: 20px;
+}
+
 
 .box {
   position: relative;
